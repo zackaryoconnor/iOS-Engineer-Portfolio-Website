@@ -2,9 +2,6 @@
     text-align: center;
 }
 
-.navbar {
-    margin: 0 2%;
-}
 
 .ampersand {
     font-family: 'Playfair Display';
@@ -29,16 +26,33 @@ p {
     text-align: left;
 }
 
+.container-fluid {
+    margin: 0%;
+}
+
 .bio {
-    padding: 25% 2%;
+    padding: 25% 0;
     text-align: center;
     margin: 0 auto;
 }
 
-.bio-description {
-    margin: 0 auto;
+
+.work {
+    text-align: center;
+    margin: 0 0% 15% 0%;
 }
 
-.bio h1 {
+.product-card {
+    margin: 0;
+    padding: 16px;
+}
+
+.card-border-none {
+    margin-bottom: 50px;
+}
+
+.product-image {
+    width: 90%;
     margin: 0 auto;
+    padding: 15px;
 }
