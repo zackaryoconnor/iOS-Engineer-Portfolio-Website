@@ -1,0 +1,44 @@
+* {
+    text-align: center;
+}
+
+.navbar {
+    margin: 0 2%;
+}
+
+.ampersand {
+    font-family: 'Playfair Display';
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+h1 {
+    text-align: left;
+}
+
+h2 {
+    text-align: left;
+}
+
+h4 {
+    font-weight: 600;
+    text-align: left;
+}
+
+p {
+    text-align: left;
+}
+
+.bio {
+    padding: 25% 2%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.bio-description {
+    margin: 0 auto;
+}
+
+.bio h1 {
+    margin: 0 auto;
+}
