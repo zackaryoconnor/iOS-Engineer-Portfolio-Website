@@ -1,58 +1,105 @@
 * {
-    text-align: center;
-}
-
-
-.ampersand {
-    font-family: 'Playfair Display';
-    font-weight: bolder;
-    font-size: 3rem;
+	text-align: left;
 }
 
 h1 {
-    text-align: left;
+	text-align: left;
 }
 
 h2 {
-    text-align: left;
+	text-align: left;
 }
 
 h4 {
-    font-weight: 600;
-    text-align: left;
+	font-weight: 600;
+	text-align: left;
 }
 
 p {
-    text-align: left;
+	text-align: left;
 }
 
-.container-fluid {
-    margin: 0%;
+.container-view {
+	margin: 1% 4%;
+}
+
+.navbar-brand {
+	font-weight: 600;
+}
+
+.ampersand {
+	font-family: 'Playfair Display';
+	font-weight: bolder;
+	font-size: 3rem;
+}
+
+.bio-container {
+	height: 75vh;
+	text-align: center;
+	overflow: hidden;
 }
 
 .bio {
-    padding: 25% 0;
-    text-align: center;
-    margin: 0 auto;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
+.bio .title {
+	padding-bottom: 16px;
+}
 
 .work {
-    text-align: center;
-    margin: 0 0% 15% 0%;
+	text-align: center;
+	margin: 0 0% 15% 0%;
 }
 
 .product-card {
-    margin: 0;
-    padding: 16px;
+	margin: 0 auto;
+	padding: 16px;
 }
 
 .card-border-none {
-    margin-bottom: 50px;
+	margin-bottom: 50px;
 }
 
 .product-image {
-    width: 90%;
-    margin: 0 auto;
-    padding: 15px;
+	width: 90%;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+.product-links {
+	text-align: center;
+}
+
+.footer {
+	margin: 36px auto;
+}
+
+@media (min-width: 500px) {
+	* {
+		text-align: center;
+	}
+
+	.bio {
+		text-align: center;
+	}
+
+	.bio .title {
+		margin: 0 auto;
+		text-align: center;
+		font-size: 2.5rem;
+	}
+
+	.bio .bio-description {
+		text-align: center;
+		margin: 0 auto;
+		max-width: 800px;
+	}
+
+	.card-text {
+		text-align: center;
+	}
 }

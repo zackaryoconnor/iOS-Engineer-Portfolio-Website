@@ -27,68 +27,95 @@
 
 <div class="container-fluid">
 
-    <!-- navbar -->
-    <div class="navbar navbar-light navbar-expand-lg">
+    <div class="container-view">
+        <!-- navbar -->
+        <div class="navbar navbar-light navbar-expand-lg">
 
-        <a class="navbar-brand" href="">Zackary O'Connor</a>
+            <a class="navbar-brand" href="">Zackary O'Connor</a>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
-            aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
+                aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
-            <ul class="navbar-nav ml-auto">
-                <li>
-                    <a class="nav-link" href="#bio">About</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="#work">Work</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="#footer">Contact</a>
-                </li>
-            </ul>
+            <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
+                <ul class="navbar-nav ml-auto">
+                    <li>
+                        <a class="nav-link" href="#bio">About</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#work">Work</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#footer">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
         </div>
 
-    </div>
-
-    <!-- bio -->
-    <div class="bio">
-        <h1 class="title col-md-7">iOS Engineer<span class="ampersand">
-                &
-            </span>Photographer</h1>
-        <br>
-        <p class="bio-description col-md-7">Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit. Eveniet quia iste ullam maiores provident quidem repellendus
-            ipsam quibusdam commodi libero.</p>
-    </div>
-
-    <!-- work -->
-    <div class="work row" id="work">
-
-        <div class="product-card col-md-6 col-lg-4">
-            <div class="card-border-none">
-                <img src="/Assets/product-hero.png" class="product-image card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">My Dvd's</h5>
-                    <p class="card-text">This is a movie tracking app, that lets you keep track of
-                        the movies you own on DVD. I am using "<a href="https://www.themoviedb.org/" target="_blank"
-                            class="btn-link active" role="button" aria-pressed="true">TMDB</a>" for the movie data, and
-                        <a href="https://firebase.google.com/" target="_blank" class="btn-link active" role="button"
-                            aria-pressed="true">Firebase</a>
-                        for the backend.</p>
-                    <div class="product-links col">
-                        <a href="https://github.com/zackaryoconnor/My-Movies" target="_blank"
-                            class="github-button btn btn-outline-secondary btn-link btn-sm active" role="button"
-                            aria-pressed="true">github</a>
-                    </div>
-                </div>
+        <!-- bio -->
+        <div class="bio-container">
+            <div class="bio">
+                <h1 class="title col-md-7">iOS Engineer<span class="ampersand"> & </span>Photographer</h1>
+                <p class="bio-description col-md-7">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet quia iste ullam maiores provident quidem repellendus ipsam quibusdam commodi libero.</p>
             </div>
         </div>
 
+        <!-- work -->
+        <div class="work row" id="work">
+
+            <div class="product-card col-md-6 col-lg-4">
+                <div class="card-border-none">
+                    <img src="/Assets/product-hero.png" class="product-image card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">My Dvd's</h5>
+                        <p class="card-text">This is a movie tracking app, that lets you keep track of
+                            the movies you own on DVD. I am using "<a href="https://www.themoviedb.org/" target="_blank"
+                                class="btn-link active" role="button" aria-pressed="true">TMDB</a>" for the movie data, and
+                            <a href="https://firebase.google.com/" target="_blank" class="btn-link active" role="button"
+                                aria-pressed="true">Firebase</a>
+                            for the backend.</p>
+                        <div class="product-links col">
+                            <a href="https://github.com/zackaryoconnor/My-Movies" target="_blank"
+                                class="github-button btn btn-outline-secondary btn-link btn-sm active" role="button"
+                                aria-pressed="true">github</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card col-md-6 col-lg-4">
+                <div class="card-border-none">
+                    <img src="/Assets/Facebook-clone-product-image.png" class="product-image card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Basic Facebook Clone</h5>
+                        <p class="card-text">This is a simplified version of the Facebook app.</p>
+                        <div class="product-links col">
+                            <a href="https://github.com/zackaryoconnor/Basic-Facebook-Clone" target="_blank"
+                                class="github-button btn btn-outline-secondary btn-link btn-sm active" role="button"
+                                aria-pressed="true">github</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- footer -->
+        <div class="navbar navbar-light navbar-expand-lg" id="footer">
+            <nav class="footer">
+                <ul class="footer-elements navbar-nav">
+                    <li>
+                        <a class="btn btn-link btn-outline-primary btn-sm" href="https://github.com/zackaryoconnor">github<img src="#" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </div>
 
 </div>
+
+
+
 
 </html>
