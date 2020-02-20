@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,800&display=swap" rel="stylesheet">
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
@@ -29,7 +30,7 @@
 
     <div class="container-view">
         <!-- navbar -->
-        <div class="navbar navbar-light navbar-expand-lg">
+        <div class="navbar navbar-inverse navbar-expand-lg">
 
             <a class="navbar-brand" href="">Zackary O'Connor</a>
 
@@ -56,26 +57,29 @@
 
         <!-- bio -->
         <div class="bio-container">
+            <img class="ampersand" src="/Assets/white-ampersand.svg";>
             <div class="bio">
-                <h1 class="title col-md-7">iOS Engineer<span class="ampersand"> & </span>Photographer</h1>
-                <p class="bio-description col-md-7">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet quia iste ullam maiores provident quidem repellendus ipsam quibusdam commodi libero.</p>
+                <h1 class="title">iOS Engineer <br> Photographer</h1>
+                <p class="bio-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet quia iste ullam maiores provident quidem repellendus ipsam quibusdam commodi libero.</p>
             </div>
         </div>
 
         <!-- work -->
         <div class="work row" id="work">
 
-            <div class="product-card col-md-6 col-lg-4">
+            <div class="product-card col-md-6 col-lg-5 col-xl-4">
                 <div class="card-border-none">
                     <img src="/Assets/product-hero.png" class="product-image card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">My Dvd's</h5>
+                        <h4 class="card-title">My DVD's</h4>
                         <p class="card-text">This is a movie tracking app, that lets you keep track of
-                            the movies you own on DVD. I am using "<a href="https://www.themoviedb.org/" target="_blank"
-                                class="btn-link active" role="button" aria-pressed="true">TMDB</a>" for the movie data, and
-                            <a href="https://firebase.google.com/" target="_blank" class="btn-link active" role="button"
-                                aria-pressed="true">Firebase</a>
-                            for the backend.</p>
+                            the movies you own on DVD. I am using "<a href="https://www.themoviedb.org/" target="_blank" class="btn-link active" role="button" aria-pressed="true">TMDB</a>" for the movie data, and
+                            <a href="https://firebase.google.com/" target="_blank" class="btn-link active" role="button"aria-pressed="true">Firebase</a> for the backend.</p>
+                            <h5>Role</h5>
+                        <p>Sole developer</p>
+                        <h5>Technologies</h5>
+                        <p>Swift, Programmatic UI, Firebase</p>
+                        <br>
                         <div class="product-links col">
                             <a href="https://github.com/zackaryoconnor/My-Movies" target="_blank"
                                 class="github-button btn btn-outline-secondary btn-link btn-sm active" role="button"
@@ -84,12 +88,38 @@
                     </div>
                 </div>
             </div>
-            <div class="product-card col-md-6 col-lg-4">
+
+            <div class="product-card col-md-6 col-lg-5 col-xl-4">
+                <div class="card-border-none">
+                    <img src="/Assets/hours-hero-image.png" class="product-image card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title">Hours</h4>
+                        <p class="card-text">A simple way to track the amount of hours you spent volunteering or working.</p>
+                            <h5>Role</h5>
+                        <p>Sole developer</p>
+                        <h5>Technologies</h5>
+                        <p>Swift, Programmatic UI, Core Data</p>
+                        <br>
+                        <div class="product-links col">
+                            <a href="https://github.com/zackaryoconnor/My-Movies" target="_blank"
+                                class="github-button btn btn-outline-secondary btn-link btn-sm active" role="button"
+                                aria-pressed="true">github</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card col-md-6 col-lg-4 col-xl-4">
                 <div class="card-border-none">
                     <img src="/Assets/Facebook-clone-product-image.png" class="product-image card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Basic Facebook Clone</h5>
+                        <h4 class="card-title">Basic Facebook Clone</h4>
                         <p class="card-text">This is a simplified version of the Facebook app.</p>
+                        <h5>Role</h5>
+                        <p>Sole developer</p>
+                        <h5>Technologies</h5>
+                        <p>Swift, Programmatic UI</p>
+                        <br>
                         <div class="product-links col">
                             <a href="https://github.com/zackaryoconnor/Basic-Facebook-Clone" target="_blank"
                                 class="github-button btn btn-outline-secondary btn-link btn-sm active" role="button"
@@ -105,8 +135,7 @@
             <nav class="footer">
                 <ul class="footer-elements navbar-nav">
                     <li>
-                        <a class="btn btn-link btn-outline-primary btn-sm" href="https://github.com/zackaryoconnor">github<img src="#" alt="">
-                        </a>
+                        <a class="btn btn-link btn-outline-primary btn-sm" href="https://github.com/zackaryoconnor">github</a>
                     </li>
                 </ul>
             </nav>

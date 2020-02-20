@@ -1,53 +1,69 @@
 * {
+	font-family: 'Poppins', Arial, Helvetica, sans-serif;
 	text-align: left;
+	padding: 0;
+	margin: 0 1%;
+	background: none;
+	color: black;
 }
 
-h1 {
-	text-align: left;
-}
-
-h2 {
-	text-align: left;
+body::-webkit-scrollbar {
+	display: none;
 }
 
 h4 {
 	font-weight: 600;
-	text-align: left;
-}
-
-p {
-	text-align: left;
-}
-
-.container-view {
-	margin: 1% 4%;
 }
 
 .navbar-brand {
-	font-weight: 600;
+	font-weight: 500;
+}
+
+.navbar .navbar-brand {
+	color: black;
+}
+
+.navbar a {
+	background: none;
+	color: black;
 }
 
 .ampersand {
-	font-family: 'Playfair Display';
-	font-weight: bolder;
-	font-size: 3rem;
+	width: 30vw;
+	z-index: 0;
+	position: absolute;
+	right: 14%;
+	bottom: 45%;
+	translate: transformY(-50%);
 }
 
 .bio-container {
-	height: 75vh;
-	text-align: center;
-	overflow: hidden;
+	height: 85vh;
 }
 
 .bio {
-	position: relative;
+	padding: 24px;
+	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	padding: 0;
+}
+
+.bio .bio-description {
+	max-width: 1000px;
 }
 
 .bio .title {
-	padding-bottom: 16px;
+	z-index: 1;
+	padding-bottom: 24px;
+	font-size: 6vw;
+	font-weight: 800;
+	background: linear-gradient(to right, #bdc3c7 0%, #2c3e50 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	align-items: center;
+	max-width: 2000px;
 }
 
 .work {
@@ -78,28 +94,119 @@ p {
 	margin: 36px auto;
 }
 
-@media (min-width: 500px) {
-	* {
-		text-align: center;
+.footer-elements .footer-elements {
+	color: red;
+}
+
+@media (max-width: 450px) {
+	.ampersand {
+		right: 10%;
+		bottom: 53%;
 	}
 
 	.bio {
-		text-align: center;
+		position: relative;
+		margin: 16px;
+	}
+}
+
+@media (min-width: 750px) {
+	.ampersand {
+		right: 6%;
+		bottom: 50%;
+	}
+}
+
+@media (min-width: 1000px) {
+	.ampersand {
+		right: 6%;
+		bottom: 48%;
+	}
+}
+
+@media (min-width: 1300px) {
+	.ampersand {
+		right: 6%;
+		bottom: 45%;
+	}
+}
+
+@media (min-width: 1500px) {
+	.ampersand {
+		right: 6%;
+		bottom: 44%;
+	}
+}
+
+@media (min-width: 1800px) {
+	.ampersand {
+		width: 26vw;
+		right: 6%;
+		bottom: 40%;
+	}
+}
+
+@media (min-width: 2000px) {
+	.ampersand {
+		width: 26vw;
+		right: 6%;
+		bottom: 35%;
+	}
+}
+
+@media (min-width: 2200px) {
+	.bio .title {
+		font-size: 4.6vw;
 	}
 
-	.bio .title {
-		margin: 0 auto;
-		text-align: center;
-		font-size: 2.5rem;
+	.ampersand {
+		width: 26vw;
+		right: 6%;
+		bottom: 38%;
+	}
+}
+
+@media (min-width: 2400px) {
+	.ampersand {
+		width: 26vw;
+		right: 6%;
+		bottom: 35%;
 	}
 
 	.bio .bio-description {
-		text-align: center;
-		margin: 0 auto;
-		max-width: 800px;
+		max-width: 900px;
+		background: none;
+	}
+}
+
+@media (min-width: 2500px) {
+	.bio .title {
+		font-size: 4.6vw;
 	}
 
-	.card-text {
-		text-align: center;
+	.ampersand {
+		width: 26vw;
+		right: 8%;
+		bottom: 32%;
+	}
+}
+
+@media (prefers-color-scheme: light) {
+	* {
+		background-color: #1f1f1f;
+		color: white;
+	}
+
+	.ampersand {
+		content: url(/Assets/dark-ampersand.svg);
+	}
+
+	.navbar .navbar-brand {
+		color: white;
+	}
+
+	.navbar a {
+		background: none;
+		color: white;
 	}
 }
